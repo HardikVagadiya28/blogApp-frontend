@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import aboutImg from "../Images/About.png";
+import aboutImg from "../images/About.png";
 import Navbar from "../components/Navbar";
 import { TextField, Button, Paper } from "@mui/material";
 import { api_base_url } from "../helper";
