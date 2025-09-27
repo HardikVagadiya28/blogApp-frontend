@@ -157,7 +157,7 @@ const Navbar = () => {
           } transition-transform duration-300 ease-in-out`}
         >
           <div className="flex justify-between items-center p-4 border-b border-gray-800">
-            <img className="w-[120px]" src={logo} alt="BlogApp Logo" />
+            <img className="w-[120px]" src="/images/logo.png" alt="BlogApp Logo" />
             <IconButton
               onClick={toggleMobileMenu}
               size="large"
