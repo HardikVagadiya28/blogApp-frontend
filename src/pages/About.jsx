@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import aboutImg from "../images/About.png";
 import Navbar from "../components/Navbar";
 import { TextField, Button, Paper } from "@mui/material";
 import { api_base_url } from "../helper";
@@ -33,7 +32,7 @@ const About = () => {
 
       <div className="relative w-full h-[300px] sm:h-[350px] md:h-[400px] flex items-center justify-center bg-black rounded-b-xl overflow-hidden shadow-lg">
         <img
-          src={aboutImg}
+          src="/images/About.png"
           alt="Blogging Illustration"
           className="max-h-full max-w-full object-contain"
         />

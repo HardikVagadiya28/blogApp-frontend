@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from "../images/logo.png";
 import { Link, useNavigate } from "react-router-dom";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import Menu from "@mui/material/Menu";
@@ -50,7 +49,7 @@ const Navbar = () => {
         <div className="logo">
           <img
             className="w-[120px] xs:w-[140px] sm:w-[160px] md:w-[180px] lg:w-[200px]"
-            src={logo}
+            src="/images/logo.png"
             alt="BlogApp Logo"
           />
         </div>

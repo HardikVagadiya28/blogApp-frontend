@@ -1,5 +1,4 @@
 import React from "react";
-import heroImg from "../images/hero.gif";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
@@ -32,7 +31,7 @@ const Hero = () => {
         <div className="right w-full lg:w-[50%] flex justify-center mt-6 sm:mt-8 lg:mt-0">
           <img
             className="rounded-[20px] w-full max-w-xs sm:max-w-md lg:max-w-full"
-            src={heroImg}
+            src="/images/hero.gif"
             alt="Hero illustration"
           />
         </div>

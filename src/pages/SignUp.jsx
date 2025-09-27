@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from "../images/logo.png";
 import { Link, useNavigate } from "react-router-dom";
 import { api_base_url } from "../helper";
 import VisibilityIcon from "@mui/icons-material/Visibility";
@@ -49,8 +48,8 @@ const SignUp = () => {
         >
           <img
             className="-mt-3 w-[240px] h-[100px] object-cover"
-            src={logo}
-            alt=""
+            src="/images/logo.png"
+            alt="BlogApp Logo"
           />
           <div className="w-full">
             <p className="text-[gray] text-[14px] mt-3">Username</p>
