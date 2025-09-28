@@ -16,7 +16,7 @@ const Blog = ({ data, showInteractions = true }) => {
       >
         <img
           className="w-full h-[120px] xs:h-[150px] sm:h-[180px] md:h-[200px] object-cover rounded-md mb-3"
-          src={`${api_base_url}/uploads/${data.image}`}
+          src={data.image}
           alt={data.title}
         />
 
