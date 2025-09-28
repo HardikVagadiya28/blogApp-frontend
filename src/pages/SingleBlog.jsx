@@ -181,7 +181,7 @@ const SingleBlog = () => {
               <div className="left w-full md:w-[40%] h-full mb-4 md:mb-0">
                 <img
                   className="w-full h-64 md:h-80 object-cover rounded-lg"
-                  src={`${api_base_url}/uploads/${data.image}`}
+                  src={data.image}
                   alt={data.title}
                 />
               </div>
