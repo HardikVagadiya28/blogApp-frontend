@@ -225,7 +225,7 @@ const Blogs = () => {
       >
         <img
           className="w-full h-[200px] object-cover rounded-lg mb-2"
-          src={`${api_base_url}/uploads/${data.image}`}
+          src={data.image}
           alt=""
         />
 
